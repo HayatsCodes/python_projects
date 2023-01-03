@@ -2,10 +2,10 @@
 from email.message import EmailMessage
 import ssl
 import smtplib
+import password
 
 email_sender = 'hayatscodes@gmail.com'
-email_password = 'zhacksymcamewxwl'
-
+emai_password = password.email_password
 # Generated from https://temp-mail.org/en/
 email_receiver = 'bahoji3076@cnxcoin.com'
 subject = "Don't forget to subscribe"
